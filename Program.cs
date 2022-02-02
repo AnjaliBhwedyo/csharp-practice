@@ -8,7 +8,7 @@
 	
 */
 
-/*1.Write a program to calculate volume area of swing pool which leant, breath and high 12, 6, 3.
+/*1.Write a program to calculate volume area of swimming  pool which length, breadth and height 12, 6, 3.
 int l = 12;
 int b = 6;
 int h = 3;
