@@ -1,0 +1,192 @@
+Make a program to display the following out put: 1, 8 ,18 ,……….. ,128*/
+
+/*Wap to find series of even numbers*//*
+int a = 0;
+int b = 1;
+int c = 0;
+while(a<144)
+{
+    //a = b + c;
+    c = a + b;
+    a = b;
+    b = c;   
+	Console.WriteLine(a);
+
+}
+*/
+//•	Make a program to display the following output:
+/*//0,5,10,15,20,25.................50
+int a=0;
+while (a <= 50)
+{
+	Console.WriteLine(a);
+	a = a + 5;
+	
+}*/
+
+//•	'Make a program to display the following series:
+/*5, 25,625,390625..............5th term.
+
+int a = 5;
+for (int i = 0; i < 5; i++)
+{
+	Console.WriteLine(a);
+	a = a * a;	
+}*/
+//•	Multiplication table of 1 to 10
+
+/*for(int i =1;i<=10;i++)
+{
+	for(int j = 1; j <= 10; j++)
+    {
+		int k = i * j;
+		Console.WriteLine(i+"*"+ j +"="+ k);
+    }
+	Console.WriteLine("\n\n");
+}
+*/
+/*Printing the odd numbers
+for (int i = 0; i <= 100; i++)
+{
+	if (i % 2 == 0) { }
+	else
+	{
+		Console.WriteLine(i);
+	}
+}*/
+
+/*for (int i = 1; i <= 10; i++)
+{
+	for(int j = 1; j <= 10; j++)
+    {
+		Console.Write(j);
+
+    }
+	Console.WriteLine(i);
+}*/
+/*
+find certain word in paragraph*/
+
+/*string[] total = { "hello heelo ji hello world" };
+Console.WriteLine(total[]);*/
+/*foreach (var item in para1)
+{
+	Console.WriteLine(item.ToString());
+}*/
+/*for (int i = 0; i < key.Length; i++) {
+	ch[i] = (char)key[i];
+
+	
+}
+Console.WriteLine(ch);*/
+
+/*
+Console.WriteLine("enter the string");
+string para = Console.ReadLine();
+Console.WriteLine("enter the word to be searched");
+string key = Console.ReadLine();
+char[] ch = new char[key.Length];
+int count = 0;
+for (int i = 0; i < key.Length; i++)
+{
+    ch[i] = (char)key[i];
+}
+string[] para1 = para.Split(' ');
+for (int i = 0; i < para1.Length; i++)
+{
+	if (para1[i].Contains(key) == true)
+	{
+		count++;
+	}
+	else
+	{
+
+	}
+}
+Console.WriteLine(count + "times.");
+*/
+
+
+
+/*string str1, str2;
+bool m;
+
+Console.Write("\n\nCheck whether a given substring is present in the given strig :\n");
+Console.Write("--------------------\n");
+Console.Write("Input the string : ");
+str1 = Console.ReadLine();
+
+Console.Write("Input the substring to  search : ");
+str2 = Console.ReadLine();
+m = str1.Contains(str2); // boolean value tapped hare
+if (m) // check boolean value is true or false.
+	Console.Write("The substring exists in the string.\n\n");
+else
+	Console.Write("The substring is not exists in the string. \n\n");
+	
+*/
+/*string str1;
+char[] arr1;
+int l, i;
+l = 0;
+char ch;
+Console.Write("\n\nReplace lowercase characters by uppercase and vice-versa :\n");
+
+Console.Write("Input the string : ");
+str1 = Console.ReadLine();
+l = str1.Length;
+arr1 = str1.ToCharArray(0,1);
+Console.Write("After conversion");
+for(i = 0; i < arr1.Length; i++)
+{
+	ch = arr1[i];
+	if(Char.IsLower(ch))
+		Console.Write(Char.ToUpper(ch));
+    else
+		Console.Write(Char.ToLower(ch));
+}*//*
+Console.WriteLine("Enter username");
+string uname = Console.ReadLine();
+
+Console.WriteLine("Enter password:");
+string pass = Console.ReadLine();
+if(uname != "admin" && pass != "admin")
+{
+	Console.WriteLine("Password or username incoreect");
+
+}
+else { Console.WriteLine("sucess"); }*/
+/*string str1;
+string findstring;
+int start= 0;
+int count = 1;
+int index = 1;
+
+
+Console.Write("Input the original string : ");
+str1 = Console.ReadLine();
+Console.Write("Input the string to be searched for : ");
+findstring = Console.ReadLine();
+
+
+while (start!= 1)
+{
+	start = str1.IndexOf(findstring, index + 1);
+	count += 1;
+	index = start;
+}
+Console.Write("The string '{0}' occurs " + count + " times.\n", findstring);
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
